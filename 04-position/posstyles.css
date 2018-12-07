@@ -1,0 +1,45 @@
+body,html{
+    height: 100%;
+    margin:0;
+    padding:0;
+    /*browser디폴트 스타일 제거*/
+  }
+  body{
+    height: 400%;
+    background-color: red;
+  }
+  /* Position Fixed*/
+   
+  #boxOne{
+    height:300px;
+    width:300px;
+    background-color: black;
+    position:static;
+    display: inline-block;
+    
+  }
+  #boxTwo{
+    height:300px;
+    width:100px;
+    background-color: magenta;
+    position:fixed;
+    bottom:30%;
+    
+  }
+  /* Absolute */
+  .abs-box{
+    width:400px;
+    height: 400px;
+    background-color: yellow;
+    position: relative; /* Remember to put relative here or the child will go to the body*/
+    display: inline-block;
+    
+  }
+  .abs-child{
+    width:100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    right:10px;
+    top:10px;
+  }

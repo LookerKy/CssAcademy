@@ -1,0 +1,32 @@
+body, html{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+
+}
+.father{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap:wrap;
+}/*direction의 defualt는 row 
+   row
+   justify-content - 수평으로 움직임
+   align-items - 수직으로움직임
+   column
+   justify-content - 수직으로 움직임
+   align-items - 수평으로움직임
+*/
