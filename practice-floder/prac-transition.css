@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: green;
+    color :white;
+    transition: all .5s ease-in-out; 
+}
+.box:hover{
+    background-color: red;
+    color:blue
+}
